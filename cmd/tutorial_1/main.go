@@ -25,7 +25,10 @@ func main() {
 	fmt.Println(myFunc);
 
 	res1, res2 := mult(9, "hii")
-	fmt.Println(res1, res2);
+	fmt.Println(res1, res2);			// default value is 0 if not assigned
 
-	myArr();
+	myArr()
+	myMap()
+	myLoops()
+	myString()
 }

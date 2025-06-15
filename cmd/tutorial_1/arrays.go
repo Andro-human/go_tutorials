@@ -23,4 +23,12 @@ func myArr() {
 	intSlice2 := []int32{8,9}
 	intSlice = append(intSlice, intSlice2...)
 	fmt.Println(intSlice)
+
+
+	for i,v := range intArr {
+		fmt.Printf("indev: %v, Value: %v \n", i, v)
+	}
+
+	var testSlice[] int = make([]int, 0, 3)
+	fmt.Println(testSlice)
 } 
