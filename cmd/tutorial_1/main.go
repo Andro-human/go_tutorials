@@ -31,4 +31,6 @@ func main() {
 	myMap()
 	myLoops()
 	myString()
+	myStructs()
+	myPointer()
 }
